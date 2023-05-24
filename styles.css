@@ -1,9 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+  p {
+    max-width: 800;
   }
-  
+  ul {
+    max-width:800px;
+    list-style-type: disc;
+    margin-left: 20;
+  }
+
+  ol {
+    max-width:800px;
+    list-style-type: i;
+    margin-left: 20;
+  }
+
   /* Mobile Styles */
   @media only screen and (max-width: 400px) {
     body {
@@ -21,6 +31,6 @@
   /* Desktop Styles */
   @media only screen and (min-width: 961px) {
     body {
-      background-color: #b2faff; /* Blue */
+      background-color: #b2ffbf; /* Blue */
     }
   }
